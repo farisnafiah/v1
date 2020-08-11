@@ -6,23 +6,19 @@ function Backdrop(props) {
   return (
     <div className="backdrop">
 
-      <div className="closebtn__div">
-        <a href="/#" className="closebtn" onClick={props.onCLickCloseBtn}>&times;</a>
-      </div>
-
       <div className="appSideDrawer__div">
         <ul className="appSideDrawer__ul">
         <li>
-          <a href="/#" className="appSideDrawer__item">About</a>
+          <a href="/#About" className="appSideDrawer__item">About</a>
         </li>
         <li>
-          <a href="/#" className="appSideDrawer__item">Academic</a>
+          <a href="/#Work" className="appSideDrawer__item">Work Experience</a>
         </li>
         <li>
-          <a href="/#" className="appSideDrawer__item">Work Experience</a>
+          <a href="/#Academic" className="appSideDrawer__item">Academic</a>
         </li>
         <li>
-          <a href="/#" className="appSideDrawer__item">Contact</a>
+          <a href="/#Contact" className="appSideDrawer__item">Contact</a>
         </li>
         </ul>
 

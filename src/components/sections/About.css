@@ -1,0 +1,54 @@
+.section__About-skillColumn {
+  font-size: 16px;
+  text-align: left;
+}
+
+.section__About-ul {
+  columns: 2;
+  column-gap: 1px;
+  padding-inline-start: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  overflow: hidden;
+}
+
+.section__About-li {
+  font-family: "Fira Mono";
+  list-style: none;
+  font-size: 13px;
+}
+
+.section__About-li::before {
+  content: ">";
+  line-height: 12px;
+  margin-right: 10px;
+  color: #64ffda;
+}
+
+.section__About-profilePic {
+  width: 60%;
+  min-width: 200px;
+  max-width: 250px;
+  box-shadow: 15px 15px #64ffda;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.section__About-profilePic:hover {
+  box-shadow: 5px 5px #64ffda;
+}
+
+@media (max-width: 479px) {
+  .section__About-header::after {
+    width: 130px;
+  }
+  .section__About-skillColumn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section__About-skillColumn {
+    padding-bottom: 50px;
+  }
+}

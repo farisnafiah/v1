@@ -1,0 +1,60 @@
+/* .section__Jobs {
+  position: relative;
+} */
+
+.section__Jobs span {
+  border-left: 2px solid#64ffda;
+  font-size: 12px;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  transition: transform 0.5s;
+}
+
+.section__Jobs span.index1-chosen {
+  transform: translateY(0px);
+}
+.section__Jobs span.index2-chosen {
+  transform: translateY(42px);
+}
+.section__Jobs span.index3-chosen {
+  transform: translateY(84px);
+}
+
+.section__Jobs-styledTabList {
+  max-width: 130px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 575px) {
+
+  .section__Jobs-VerticalTabRow {
+    margin-top: 10px;
+  }
+
+  .section__Jobs-styledTabList {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section__Jobs span {
+    top: 40px;
+    border-bottom: 2px solid#64ffda;
+    border-left: none;
+    width: 80px;
+    height: 2px;
+  }
+  .section__Jobs span.index1-chosen {
+    transform: translateX(0px);
+  }
+  .section__Jobs span.index2-chosen {
+    transform: translateX(80px);
+  }
+  .section__Jobs span.index3-chosen {
+    transform: translateX(160px);
+  }
+}

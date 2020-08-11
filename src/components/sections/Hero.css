@@ -1,0 +1,47 @@
+.sectionHero {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left
+}
+
+.sectionHero p {
+  color: #64ffda;
+  font-family: 'Fira Mono';
+}
+
+.sectionHero h1 {
+  color: #CCD6F6;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.sectionHero h3 {
+  color: #8892b0;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 0.05rem;
+}
+
+.sectionHero h5 {
+  color: #8892B0;
+  margin-top: 15px;
+}
+
+#GetInTouch-button {
+  color: #64ffda;
+  font-family: 'Fira Mono';
+  border-color: #64ffda;
+  background-color: #0a192f;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+#GetInTouch-button:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+}

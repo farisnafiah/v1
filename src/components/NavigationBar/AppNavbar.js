@@ -1,7 +1,7 @@
 import React, {useState} from "react";
+// import "./AppNavbar.css";
 import "./AppNavbar.css";
-import DrawerToggleButton from "../Backdrop/DrawerToggleButton"
-import Backdrop from "../Backdrop/Backdrop";
+import Backdrop from "./Backdrop";
 import { CSSTransition } from 'react-transition-group';
 
 function AppNavbar(props) {
@@ -13,8 +13,7 @@ function AppNavbar(props) {
   };
 
   return (
-    <div>
-      <header>
+    <header>
       <nav className="appNavbar">
 
         <div className="appNavbar__logo">
@@ -22,22 +21,32 @@ function AppNavbar(props) {
         </div>
 
         <div className="appNavbar__toggle-button">
-          <DrawerToggleButton onClick={handleClickDrawerToggleButton}/>
+          <button className="toggle-button" onClick={handleClickDrawerToggleButton} >
+            <CSSTransition in={backdropOpen} timeout={5000} classNames="HamburgerRotateIntoCrossA">
+            <div className="toggle-button__line a" />
+            </CSSTransition>
+            <CSSTransition in={backdropOpen} timeout={5000} classNames="HamburgerRotateIntoCrossB">
+            <div className="toggle-button__line b" />
+            </CSSTransition>
+            <CSSTransition in={backdropOpen} timeout={5000} classNames="HamburgerRotateIntoCrossC">
+            <div className="toggle-button__line c" />
+            </CSSTransition>
+          </button>
         </div>
 
         <div className="appNavbar__navigation">
           <ol id="nav" className="appNavbar__ol">
             <li className="appNavbar__list">
-              <a href="/#" className="appNavbar__item">About</a>
+              <a href="/#About" className="appNavbar__item">About</a>
             </li>
             <li className="appNavbar__list">
-              <a href="/#" className="appNavbar__item">Academic</a>
+              <a href="/#Work" className="appNavbar__item">Work Experience</a>
             </li>
             <li className="appNavbar__list">
-              <a href="/#" className="appNavbar__item">Work Experience</a>
+              <a href="/#Academic" className="appNavbar__item">Academic</a>
             </li>
             <li className="appNavbar__list">
-              <a href="/#" className="appNavbar__item">Contact</a>
+              <a href="/#Contact" className="appNavbar__item">Contact</a>
             </li>
           </ol>
 
@@ -45,13 +54,12 @@ function AppNavbar(props) {
         </div>
 
       </nav>
-      </header>
 
-      <CSSTransition in={backdropOpen} timeout={2000} classNames="fade" unmountOnExit>
+      <CSSTransition in={backdropOpen} timeout={2000} classNames="opa" unmountOnExit>
         <Backdrop onCLickCloseBtn={handleClickDrawerToggleButton} backdropOpen={backdropOpen}/>
       </CSSTransition>
 
-    </div>
+    </header>
   );
 };
 

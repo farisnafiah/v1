@@ -1,0 +1,38 @@
+.section__Jobs-listCompany {
+  list-style: none;
+  text-align: left;
+}
+
+.section__Jobs-buttonCompany {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  border-left: 2px solid #8892b0;
+  font-family: "Roboto Mono", monospace;
+  font-size: 13px;
+  height: 42px;
+  width: 100%;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.section__Jobs-buttonCompany:hover,
+.section__Jobs-buttonCompany:focus {
+  background-color: #172a45;
+}
+
+.section__Jobs-buttonCompany:hover,
+.section__Jobs-buttonCompany:active,
+.section__Jobs-buttonCompany:focus {
+  color: #64ffda;
+  outline: 0px;
+}
+
+@media only screen and (max-width: 575px) {
+  .section__Jobs-buttonCompany {
+    border-bottom: 2px solid #8892b0;
+    border-left: none;
+    width: 80px;
+    text-align: center;
+  }
+}
