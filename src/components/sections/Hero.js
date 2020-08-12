@@ -10,7 +10,7 @@ function Hero(props) {
       <h3>{props.data.roles}</h3>
       <h5>{props.data.fields}</h5>
 
-      <Button id="GetInTouch-button">Get In Touch</Button>
+      <Button id="GetInTouch-button" href="mailto:farisizzuddinnafiahhussin@gmail.com">Get In Touch</Button>
     </div>
   );
 };

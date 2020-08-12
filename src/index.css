@@ -6,6 +6,6 @@ body {
   margin: 0;
   counter-reset: section;
   background-color: #0a192f;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: "Roboto", "Segoe UI", Arial, sans-serif;
   text-align: center;
 }
