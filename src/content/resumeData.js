@@ -69,10 +69,7 @@ let resumeData = {
       location: "London, UK",
       course: "PhD in Electrical & Electronics Eng.",
       duration: "Oct 2018 - Oct 2021",
-      details: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim fringilla dui ac mattis.",
-        "Donec in sodales eros. Nulla fermentum, ante in venenatis pellentesque, justo odio viverra lorem, varius posuere erat tortor et magna."
-      ],
+      details: "Funded by Lloyd's Register Foundation, TWI  and LSBU, the collaborative research aims at developing an electromagnetic method for nondestructive testing of corrosion under insulation in pipelines. Works include circuit design, mechanical prototyping, data analysis and signal processing.",
       website: "https://www.lsbu.ac.uk/"
     },
     {
@@ -81,10 +78,7 @@ let resumeData = {
       location: "Kuala Lumpur, Malaysia",
       course: "Msc in Mechatronics Eng.",
       duration: "Oct 2016 - Feb 2018",
-      details: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim fringilla dui ac mattis.",
-        "Donec in sodales eros. Nulla fermentum, ante in venenatis pellentesque, justo odio viverra lorem, varius posuere erat tortor et magna."
-      ],
+      details: "The study was funded by Malaysian Ministry of Higher Education. This joint research between IIUM and Nuclear Malaysia Agency successfully developed an automated system to inspect defects on aircraft wings using electromagnetic technique.",
       website: "https://www.iium.edu.my/"
     },
     {
@@ -93,10 +87,7 @@ let resumeData = {
       location: "Auckland, New Zealand",
       course: "BEng. (H) in Electrical & Electronics Eng.",
       duration: "Oct 2016 - Feb 2018",
-      details: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim fringilla dui ac mattis.",
-        "Donec in sodales eros. Nulla fermentum, ante in venenatis pellentesque, justo odio viverra lorem, varius posuere erat tortor et magna."
-      ],
+      details: "Scholarship awarded by People's Trust Council (Malaysia). Majoring in signal processing, the final year dissertation aimed at developing a system enabling nerve signal acquisition from aquatic animal (fish). Work requires extensive use of control system and signal processing.",
       website: "https://www.auckland.ac.nz/en.html"
     }
     ]
