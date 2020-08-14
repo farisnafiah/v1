@@ -1,8 +1,9 @@
 import React, {useState} from "react";
-// import "./AppNavbar.css";
 import "./AppNavbar.css";
 import Backdrop from "./Backdrop";
 import { CSSTransition } from 'react-transition-group';
+
+// import resume from "../../public/FN-icon2.png";
 
 function AppNavbar(props) {
 
@@ -50,7 +51,7 @@ function AppNavbar(props) {
             </li>
           </ol>
 
-          <button className="appNavbar__button">Resume</button>
+          <button className="appNavbar__button"><a className="appNavbar__button-a" href={process.env.PUBLIC_URL+"/FarisNafiah_CV.pdf"} download="FarisNafiah_CV.pdf">Resume</a></button>
         </div>
 
       </nav>
