@@ -86,7 +86,7 @@ let resumeData = {
       university: "University of Auckland",
       location: "Auckland, New Zealand",
       course: "BEng. (H) in Electrical & Electronics Eng.",
-      duration: "Oct 2016 - Feb 2018",
+      duration: "Mar 2013 - Nov 2015",
       details: "Scholarship awarded by People's Trust Council (Malaysia). Majoring in signal processing, the final year dissertation aimed at developing a system enabling nerve signal acquisition from aquatic animal (fish). Work requires extensive use of control system and signal processing.",
       website: "https://www.auckland.ac.nz/en.html"
     }
